@@ -16,6 +16,17 @@ body {
     position: sticky;
     top: 0;
 }
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 0.5rem;
+  }
+
+  #navbar a.active {
+    background-color: black;
+    color: white;
+  }
+
 hr {
     margin: 2rem 0rem;
 }
@@ -76,13 +87,10 @@ hr {
 
 }
 
-.navigation .link-active {
-    font-weight: bold;
-}
-
 /**Header**/
 .hero {
     padding: 2rem;
+   
 }
 
 .hero .hero-img {
@@ -110,6 +118,11 @@ hr {
 .section h1 {
     text-align: center;
     
+}
+.shwetha-img {
+    display: inline;
+    margin: auto;
+    max-width: 300px;
 }
 .ow {
     background-color: var(--off-white);
