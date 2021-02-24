@@ -22,11 +22,6 @@ body {
     border-radius: 0.5rem;
   }
 
-  #navbar a.active {
-    background-color: black;
-    color: white;
-  }
-
 hr {
     margin: 2rem 0rem;
 }
@@ -34,12 +29,53 @@ hr {
 /** container **/
 .container {
     padding: 0rem 1rem;
+    
 }
 
 .container-centre {
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
 }
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+}
+.v1 {
+    border-left: 3px solid var(--dark-gray);
+    height: 120px;
+  left: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .right {
+    width: 75%;
+  }
+  .left {
+      width:25%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /**Links**/
 .link {
@@ -58,7 +94,18 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-
+#footericons {
+    height: 16px;
+    padding-right: 5px;
+}
+#pdficon {
+    height: 17px;
+    padding-left: 5px;
+}
+#blogimage {
+    height: 120px;
+    width:200px;
+}
 /**Lists**/
 .list-non-bullet {
     list-style: none;
@@ -90,19 +137,31 @@ hr {
 /**Header**/
 .hero {
     padding: 2rem;
+    
    
 }
+.hero-backgrnd {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/Images/sky.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+
 
 .hero .hero-img {
     max-width: 400px;
     display: block;
     margin: auto;
+   
+
 }
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: white;
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -127,6 +186,7 @@ hr {
 .ow {
     background-color: var(--off-white);
 }
+
 /**footers**/
 .footer {
     background-color: var(--primary-color);

@@ -4,38 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Shwetha Rao</title>
+    <title>Shwetha Rao</title>
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <header class="hero">
+    <header class="hero hero-backgrnd">
+        <div class="blur"></div>
         <img class="hero-img" src="/Images/powerfulladyviolet.svg"/>
-        <h1 class="hero-heading">Hi! I'm Shwetha Rao. <br> <span class="heading-inverted"> Brand Strategist </span></h1>
+        <h1 class="hero-heading">Hi! I'm Shwetha Rao. <br> <span class="heading-inverted"> Online Business Consultant </span></h1>
     </header>
     <nav id="navbar" class="navigation container sticky-top">
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link" href="#home">Home
+                <a  class="link navp" href="#aboutme">About Me
                 </a>
             </li>
             <li class="list-item-inline">
-                <a  class="link" href="#aboutme">About Me
+                <a class="link navp" href="#videos">Videos
                 </a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="#experience">Experience
+                <a class="link navp" href="#blog">Blog
                 </a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="#videos">Videos
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="#blog">Blog
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="#projects">Projects
+                <a class="link navp" href="#projects">Projects
                 </a>
             </li>
         </ul>
@@ -44,46 +37,72 @@
     <section id="aboutme" class="section ow">
         <div class="container container-centre">
         <h1>
-            About Me
+            Who Am I?
         </h1>
-        <img class="shwetha-img" src="/Images/Aboutme.png"/>
-        <p>I'm familiar with IBM Watson Assistant, HTML5, CSS, Python </p>
+        <div class="container-flex">
+        <img class="shwetha-img" src="/Images/Displayimg.png"/>
+        
+        <p>I've worked as an Assistant Manager for a HR Transformation Team. <br> I'm familiar with IBM Watson Assistant, HTML5, CSS, Python </p>
     </div>
+    <a class="link link-primary" href="/docs/B Shwetha Rao Resume.pdf" target="_blank">
+        <span> Resume </span>
+        <img id="pdficon" src="Images/pdf.svg">
+    
+</a>
+</div>
     </section>
-    <section id="experience" class="section">
-        <div class="container container-centre">
-        <h1>
-            Experience
-        </h1>
-        <p>I've worked as an Assistant Manager for a HR Transformation Team.</p>
-        <a class="link link-primary" href="/">View More</a>
-    </div>
-    </section>
-    <section id="videos" class="section ow">
+    <section id="videos" class="section">
         <div class="container container-centre">
         <h1>
             Videos
         </h1>
-        <p>I like to share my learning through videos.</p>
-        <a class="link link-secondary" href="/">View Videos</a>
+    
+        <div class = "container-flex">
+            <iframe  width="400" height="245" src="https://www.youtube.com/embed/D0FLC1Y36XM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <iframe  width="400" height="245" src="https://www.youtube.com/embed/5mL2K_HUF6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+       
+        </div>
     </div>
     </section>
-    <section id="blog" class="section">
+    <section id="blog" class="section ow">
         <div class="container container-centre">
         <h1>
             Blog
         </h1>
-        <p>I'm working on some technical and non-technical Blogs. I like to document my journey.</p>
-        <a class="link link-primary" href="/">View Blogs</a>
+        <p>I'm working on technical and non-technical Blogs to document my learning journey.</p>
+        <div class="row">
+        <div class="column left container-flex">
+        <img id="blogimage" src="Images/Blog1image.png">
+        <div class="v1"></div>
     </div>
+    <div class="column right" style="background-color:white;">
+        <h3> Eloquence: the key to delivering a speech that will be remembered </h3>
+        <p>After extensive study on rhetorical analysis, my one-word answer to delivering an effective speech would be: eloquence. Through the display of which you put yourself in a position where people want to listen to you. </p>
+        <a class="link link-secondary" href="https://medium.com/rhetoric-studies-wiki/eloquence-the-key-to-delivering-a-speech-that-will-be-remembered-631fada5cb0a" target="_blank">Read More</a>
+    </div>
+</div>
+</div>
     </section>
-    <section class="section ow">
+    <section class="section">
         <div id="projects" class="container container-centre">
         <h1>
             Projects
         </h1>
         <p>You can see my projects hosted online here.</p>
-        <a class="link link-secondary" href="/">View Projects</a>
+        <div class="row">
+            <div class="column left container-flex">
+            <img id="blogimage" src="/Images/socialmediaquiz.png">
+            <div class="v1"></div>
+        </div>
+        <div class="column right" style="background-color:var(--off-white);">
+            <h3> Social Media Quiz: Command Line Interface Application</h3>
+            <p> This Quiz tests basic knowledge on some commonly used social media applications. </p>
+            <a class="link link-primary" href="https://repl.it/@shwetharao/Mark-2-Social-Media-Quiz?embed=1&output=1#index.js" target="_blank">Play Quiz</a>
+            <a class="link link-secondary" href="https://github.com/rao-shwetha/Mark-2-Social-Media-Quiz" target="_blank">View Code</a>
+        </div>
+    </div>
     </div>
     </section>
     <script src="additionalcomponents.js"></script>
@@ -92,15 +111,16 @@
         <div class="footer-header"> Connect with me: </div>
         <ul class="social-links">  
             <li class="list-item-inline">
-                <a class="link" href="/">LinkedIn
+                <a class="link" href="https://www.linkedin.com/in/raoshwethab/" target="_blank"> <img id="footericons" src="Images/linkedin.svg">
+                     LinkedIn
                 </a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Instagram
+                <a class="link" href="https://www.instagram.com/rao.shwetha/" target="_blank"> <img id="footericons" src="Images/instagram.svg">Instagram
                 </a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Twitter
+                <a class="link" href="https://twitter.com/ShwethaRao11" target="_blank"><img id="footericons" src="Images/twitter.svg">Twitter
                 </a>
             </li>
         </ul>
