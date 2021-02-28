@@ -41,18 +41,7 @@ hr {
     justify-content: space-between;
     
 }
-.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-}
+
 .v1 {
     border-left: 3px solid var(--dark-gray);
     height: 120px;
@@ -141,7 +130,7 @@ hr {
    
 }
 .hero-backgrnd {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/Images/sky.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://storage.googleapis.com/shwetharao-lp/Images/sky.jpg");
     background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
