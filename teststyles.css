@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
-*{margin:0;padding:0;}
+
 :root {
     --primary-color: #7C3AED;
     --dark-gray: #6B7280;
@@ -44,10 +44,10 @@ hr {
 
 .v1 {
     border-left: 3px solid var(--dark-gray);
-    height: 159px;
-    left: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 120px;
+  left: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
   }
   .column {
     float: left;
@@ -55,10 +55,10 @@ hr {
     box-sizing: border-box;
   }
   .right {
-    width: 74%;
+    width: 75%;
   }
   .left {
-      width: 26%;
+      width:25%;
   }
   .row:after {
     content: "";
@@ -76,7 +76,6 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    padding: 9px 20px 10px 20px;
 }
 
 .link-secondary {
@@ -111,13 +110,12 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 0.5rem;
-    border-bottom-left-radius: 4rem;
+    border-bottom-left-radius: 1rem;
     margin-bottom: 0px;
 }
 
 .navigation .nav-pills {
     text-align: right;
-    padding: 15px 0px 15px 0px;
 }
 
 .navigation .link {
@@ -132,8 +130,8 @@ hr {
    
 }
 .hero-backgrnd {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("Images/sky.jpg");
-  background-position: center; 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/Images/sky.jpg");
+    background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
   
@@ -188,9 +186,8 @@ hr {
 
 }
 .footer .footer-header {
-    font-size: 22px;
-    font-weight: 500;
-    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: large;
 }
 .footer .link {
     color: white;
@@ -198,198 +195,3 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container.container-centre h1 {
-    font-size: 36px;
-    font-weight: 500;
-     
-}
-
-.container-flex p {
-    font-size: 18px;
-}
-.btndiv {
-    margin: auto;
-    width: 302px;
-    padding-bottom: 40px;
-}
-
- 
- .BlogDivF h1 {
-    font-size: 38px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.BlogDivF p {
-    font-size: 18px;
-    margin: auto;
-    width: 476px;
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 7px;
-}
-.column.right h3 {
-    font-size: 19px;
-    padding: 12px 0px 15px 0px;
-    letter-spacing: 4px;
-}
-
-.column.right p {
-    font-size: 19px;
-    padding-bottom: 22px;
-}
-.btnDiV {
-    padding-bottom: 15px;
-}
-.column.left.container-flex img {
-    padding-top: 19px;
-}
-.PrjctDiv h1 {
-    font-size: 38px;
-    font-weight: 600;
-    padding-left: 16px;
-}
-.PrjctDiv p {
-    font-size: 20px;
-    width: 366px;
-    margin: auto;
-    padding-bottom: 45px;
-    padding-top: 15px;
-}
-.twolinkDiv {
-    padding: 12px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-   .container.container-centre h1 {
-    width: 109%;
-}
-                     
-img.shwetha-img {
-    padding-left: 25%;
-    padding-top: 10%;
-    width: 46%;
-}
-
-.btndiv {
-    padding-top: 9%;
-    padding-left: 37%;
-}
-.BlogDivF p {
-    width: 100%;
-}
-
-.column.left.container-flex {
-    float: none;
-    width: 66%;
-    padding-left: 29%;
-}
-
-.column.right {width: 104%;}
-
-.btnDiV {padding-left: 30%;}
-
-.PrjctDiv p {
-    width: 95%;
-}
-
-.twolinkDiv {
-    padding-left: 17%;
-}
-.container-flex {
-    display: inline-block;
-}
-.v1 {
-    display: none;
-}
- 
-}
-
-
-
-
-
-
-@media only screen and (max-width:768px) {
-  
-
-img.shwetha-img {
-    width: 39%;
-    padding-left: 25%;
-}
-
-.btndiv {
-    padding-top: 6%;
-    padding-left: 27%;
-}
-
-.container-flex {
-    display: inline-block;
-    padding-left: 13%;
-}
-
-.PrjctDiv p {margin-bottom: 2%}
-
- 
-.v1 {
-    display: none;
-}
-
- .column {
-    float: none;
-}
-
- 
-
-.column.right {
-    padding-left: 8%;
-    width: 104%;
-}
-
-.twolinkDiv {
-    padding-left: 23%;
-}
-
-.btnDiV {
-    padding-left: 32%;
-}
-.container.container-centre h1 {
-    padding-bottom: 4%;
-}
- 
-}
-
-
-
-
-
-
