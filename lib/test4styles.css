@@ -154,11 +154,10 @@ hr {
 }
 .hero-backgrnd {
   background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("Images/sky.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 478px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
 }
 
 
@@ -362,76 +361,10 @@ div#Lefto {
 }
  
 }
-
-
-@media only screen and (max-width: 415px) {
-	header.hero.hero-backgrnd {
-    width: 134%;
-}
-
-nav#navbar {
-    width: 134%;
-}
-
- 
-section#blog {
-    width: 134%;
-}
-
-section.section {
-    width: 134%;
-}
-
-section#contact {
-    width: 134%;
-}
- 	
-}
-
-
-
-
-
-
-
-@media only screen and (max-width: 471px) {
-	
-header.hero.hero-backgrnd {
-    width: 115%;
-}
-
-nav#navbar {
-    width: 115%;
-}
-
-section#blog {
-    width: 103%;
-}
-
-section#contact {
-    width: 115%;
-}
-
-section.section {
-    width: 115%;
-}
-
-section#blog {
-    width: 115%;
-}	
-	
-}
-
-
-
-
-
-
-
-
  @media only screen and (max-width: 556px) {
 	
-  .WhoID {
+   	
+	 .WhoID {
     display: inline-block;
 }
   
@@ -445,7 +378,6 @@ div#Leftt {
 ul.list-non-bullet.nav-pills {
     font-size: 12px;
 }
- 
   
  }
 
@@ -465,16 +397,17 @@ div#Lefto {
 .ContactFrmTle h1 {
     font-size: 35px;
     padding-top: 28px;
+    margin-right: 47px;
     letter-spacing: 3px;
 }
 
 .ContactFrmTle p {
     font-size: 19px;
-    width: 328px;
+    width: 471px;
     letter-spacing: 1px;
     margin: auto;
     padding: 20px 0px 40px 0px;
-    }
+}
 
 .WhoP{
 	font-size:20px;
@@ -529,6 +462,7 @@ input[type=submit]:hover {
 
 .ContactFrmTle {
     padding-bottom: 40px;
+    margin-right: 85px;
 }
 
 .TleBox h3 {
@@ -582,6 +516,7 @@ color:#7c3aed !important;
 	
 }
  
+
  
 .h1h {
     padding-top: 1rem;
@@ -590,6 +525,19 @@ color:#7c3aed !important;
     text-shadow: 1px 1px black;
 	margin:auto
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .SliderHeading {
@@ -653,9 +601,7 @@ color:#7c3aed !important;
 
 	}
 }
-h1.hero-heading {
-    padding-bottom: 8px;
-}
+
 
 
 
