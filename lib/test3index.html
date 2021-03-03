@@ -19,25 +19,8 @@
     <header class="hero hero-backgrnd">
         <div class="blur"></div>
         <img class="hero-img" src="Images/powerfulladyviolet.svg" />
-        <h1 class="hero-heading">Hi! I'm Shwetha Rao.</h1>
-		
-		 <div class="home">
-     <div class="container">
-        <div class="row">
-            <div class="home-text">
-                 <p class="animate-text">
-                    <span>Online Business Consultant</span>
-                    <span>Project Manager</span>
-                    <span>Altruist</span>
-                    <span>Infinitely curious</span>
-                     
-                </p>
-            </div>
-        </div>
-     </div>
- </div>
-		
-		
+        <h1 class="hero-heading">Hi! I'm Shwetha Rao. <br> <span class="heading-inverted"> Online Business Consultant
+            </span></h1>
     </header>
     <nav id="navbar" class="navigation container sticky-top">
         <ul class="list-non-bullet nav-pills">
@@ -100,13 +83,14 @@
 
                 <div class="VideoBox container-flex">
 
-                    
                     <div class="VdoO">
 
-                         <iframe width="370" height="215" src="https://www.youtube.com/embed/D0FLC1Y36XM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="370" height="215" src="https://www.youtube.com/embed/D0FLC1Y36XM" frameborder="0"
+                            allow="accelerometer; autoplay;" allowfullscreen>
+                        </iframe>
 
                     </div>
-					<div class="VdoT">
+                    <div class="VdoT">
 
                         <iframe width="370" height="215" src="https://www.youtube.com/embed/5mL2K_HUF6A" frameborder="0"
                             allow="accelerometer; autoplay; " allowfullscreen>
@@ -141,8 +125,7 @@
 
                     <h3> Eloquence: the key to delivering a speech that will be remembered </h3>
                     <p>
-                        After my spending considerable amount of time studying rhetorical analysis, my one-word answer to
-                        delivering an effective speech would be: eloquence. The display
+                        Based on my study on rhetorical analysis, if I were to give a one-word response for what's the key to delivering an effective speech, it would be: eloquence. The display
                         of eloquence helps you put yourself in a position where people want to listen to you.
                     </p>
 
@@ -202,19 +185,17 @@
             </div>
             <div class="WrtnSd">
                 <div class="container">
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form action="/action_page.php">
                         <label for="fname">First Name</label>
-                        <input class="Placeholder" type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
                         <label for="lname">Last Name</label>
-                        <input class="Placeholder" type="text" id="lname" name="lastname" placeholder="Your last name..">
-						<label for="lname">Subject</label>
-                        <input class="Placeholder" type="text" id="lname" name="lastname" placeholder="subject line">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
 
 
                         <label for="subject">Message</label>
-                        <textarea class="Placeholder" id="subject" name="subject" placeholder="Write something.."
+                        <textarea id="subject" name="subject" placeholder="Write something.."
                             style="height:200px"></textarea>
 
                         <input type="submit" value="SEND">
@@ -244,22 +225,6 @@
         </div>
 
         </div>
-		
-		
-		
-
-	 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 
 
@@ -286,40 +251,6 @@
                 </li>
             </ul>
         </footer>
-		
-		
-<script>
-         const txts=document.querySelector(".animate-text").children,
-               txtsLen=txts.length;
-           let index=0;
-          const textInTimer=3000,
-                textOutTimer=2800;
-
-         function animateText() {
-            for(let i=0; i<txtsLen; i++){
-              txts[i].classList.remove("text-in","text-out");  
-            }
-            txts[index].classList.add("text-in");
-
-            setTimeout(function(){
-                txts[index].classList.add("text-out");              
-            },textOutTimer)
-
-            setTimeout(function(){
-
-              if(index == txtsLen-1){
-                  index=0;
-                }
-               else{
-                   index++;
-                 }
-                animateText();
-            },textInTimer); 
-         }
-         
-         window.onload=animateText;
-   
-</script>	
 </body>
 
 </html>  

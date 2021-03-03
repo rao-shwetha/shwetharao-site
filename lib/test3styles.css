@@ -12,26 +12,7 @@ body {
     font-family: 'Newsreader', serif;
 
 }
-html {
-  scroll-behavior: smooth;
-}
-section#aboutme {
-    padding-top: 32px;
-}
 
-section#videos {
-    padding: 32px;
-}
-
-div#projects {
-    padding: 21px;
-}
-.Placeholder {
-    font-size: 14px;
-    font-family: cursive;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
 .sticky-top {
     position: -webkit-sticky;
     position: sticky;
@@ -94,7 +75,7 @@ hr {
 }
 
 .link-primary {
-    background-color: #7c3aed;
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
     padding: 9px 20px 9px 20px;
@@ -178,7 +159,6 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
-    font-size: 36px;
 }
 
 /**sections**/
@@ -245,7 +225,8 @@ hr {
     font-size: 38px;
     font-weight: 600;
     letter-spacing: 4px;
-   padding-top: 59px !important;
+    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 20px;
 }
 
@@ -316,6 +297,11 @@ hr {
 }
 }
 
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 	
     .column {
@@ -378,12 +364,20 @@ div#Leftt {
 ul.list-non-bullet.nav-pills {
     font-size: 12px;
 }
-  
+	 
  }
+
+
+
+
 
 .container.container-centre {
     margin-bottom: 39px;
 }
+
+
+
+
 
 div#Leftt {
     margin-bottom: 106px;
@@ -393,11 +387,14 @@ div#Lefto {
     margin-bottom: 54px;
 }
 
+
+
+
+
 .cntc{background-color:#f3f4f6;}
 .ContactFrmTle h1 {
     font-size: 35px;
     padding-top: 28px;
-    margin-right: 47px;
     letter-spacing: 3px;
 }
 
@@ -417,6 +414,30 @@ div#Lefto {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
@@ -431,11 +452,11 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #7c3ae0;
+  background-color: #4CAF50;
   color: white;
-  padding: 11px 32px;
+  padding: 12px 20px;
   border: none;
-  border-radius: 7px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -462,7 +483,6 @@ input[type=submit]:hover {
 
 .ContactFrmTle {
     padding-bottom: 40px;
-    margin-right: 85px;
 }
 
 .TleBox h3 {
@@ -508,112 +528,3 @@ input[type=submit]:hover {
     font-size: 25px;
     padding-right: 14px;
 }
-section#blog {
-    padding-top: 9px;
-}
-.h1h{
-color:#7c3aed !important;	
-	
-}
- 
-
- 
-.h1h {
-    padding-top: 1rem;
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px black;
-	margin:auto
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.SliderHeading {
-    width: 408px;
-    margin: auto;
-}
-.SliderHeading h1 {
-    display: none;
-}
- 
-
-
- .home .home-text{
- 	text-align: center;
- 	position: relative;
- 	z-index: 2;
- }
-
-.home .home-text h1{
-	color:#ffffff;
-	font-size: 50px;
-	color:#ffffff;
-	line-height: 56px;
-	font-weight: 700;
-	margin:0 0 20px;
-}
-.home .home-text p{
-	margin:0;
-	overflow: hidden;
-}
-.home .home-text p span{
-    font-size: 40px;
-    color: #28006d;
-    font-weight: 700;
-    display: inline-block;
-    line-height: 46px;
-    display: none;
-}
-
-.home .home-text p span.text-in{
-	display: block;
-	animation: textIn .5s ease;
-}
-.home .home-text p span.text-out{
-	animation: textOut .5s ease;
-}
-@keyframes textIn{
-	0%{
-		transform: translateY(100%);
-	}
-	100%{
-		transform: translateY(0%);
-	}
-}
-@keyframes textOut{
-	0%{
-		transform: translateY(0%);
-	}
-	100%{
-		transform: translateY(-100%);
-
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
