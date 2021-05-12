@@ -284,12 +284,14 @@ hr {
     padding-left: 16px;
 }
 .PrjctDiv p {
-    font-size: 20px;
-    width: 418px;
+    font-size: 18px;
     margin: auto;
-    padding-bottom: 45px;
-    padding-top: 0px;
-    letter-spacing: 1px;
+    width: 471px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-bottom: 30px;
+    padding-top: 7px;
 }
 .twolinkDiv {
     padding: 12px;
